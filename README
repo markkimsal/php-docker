@@ -1,0 +1,22 @@
+PHP-Docker
+=====
+This repository contains a collection of docker images usefull for developing in PHP. 
+
+Base Image
+-----
+This repository was built with phusion/baseimage for a smaller, more proper base image for docker. In addition to the core ubuntu 14.04, this base image adds the following packages:
+  * ca-certificates
+  * inotify-tools
+  * vim
+  * pwgen
+  * tmux
+  * wget
+  * telnet
+
+
+####About
+These Dockerfiles were inspired by:
+
+    https://github.com/maxexcloo/Docker
+    https://github.com/Painted-Fox/docker-mariadb
+    https://github.com/phusion/baseimage-docker
